@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import { studentRouter } from './routes/studentRouter.js';
 
 require('dotenv').config();
+
 //CREATE
 (async () => {
   try {
